@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<properties>
+<entry key="eventID">1111963</entry>
+<entry key="eventType">1</entry>
+<entry key="nodeID">greg</entry>
+<entry key="nodeType">Product</entry>
+<entry key="eventCreationTime">2022-10-12 15:28:09.0</entry>
+<entry key="eventRevision">0.21</entry>
+<entry key="messageCreationTime">2022-10-12 15:35:35.48</entry>
+</properties>
+-->
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true" FollowOverrideSubProducts="true">
+<Entities ExportSize="Minimum">
+<Entity>
+<Name/><AttributeLink/><ClassificationCrossReference/><Entity/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ContextCrossReference/><Values/></Entity></Entities>
+<Products ExportSize="Minimum">
+<Product>
+<Name/><AttributeLink/><DataContainerTypeLink/><ClassificationReference/><Product/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ClassificationCrossReference/><Values/><OverrideSubProduct/></Product></Products>
+</STEP-ProductInformation>
+
+Export from Greg James
+Effective date: 2022-10-12 15:35:35
+Classifications All
+Products "greg"
+Assets All
+
+Exported by domain exporter.
+-->
+<STEP-ProductInformation ExportTime="2022-10-12 15:35:35" ExportContext="Context1" ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
+
+  <Products>
+    <Product ID="greg" UserTypeID="besi-objs" ParentID="besi-prods">
+      <Name>Greg James</Name>
+      <Values>
+        <Value AttributeID="surname">James</Value>
+        <Value AttributeID="first">Greg</Value>
+        <Value AttributeID="besi-title" Changed="true">British Radio Personality</Value>
+      </Values>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
