@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<properties>
+<entry key="eventID">1112964</entry>
+<entry key="eventType">1</entry>
+<entry key="nodeID">besi-me</entry>
+<entry key="nodeType">Product</entry>
+<entry key="eventCreationTime">2022-10-14 17:08:27.0</entry>
+<entry key="eventRevision">0.10</entry>
+<entry key="messageCreationTime">2022-10-14 17:09:07.123</entry>
+<entry key="eventID">1112973</entry>
+<entry key="eventType">1</entry>
+<entry key="nodeID">greg</entry>
+<entry key="nodeType">Product</entry>
+<entry key="eventCreationTime">2022-10-14 17:08:27.0</entry>
+<entry key="eventRevision">0.23</entry>
+<entry key="messageCreationTime">2022-10-14 17:09:07.123</entry>
+<entry key="eventID">1112982</entry>
+<entry key="eventType">1</entry>
+<entry key="nodeID">besi-john</entry>
+<entry key="nodeType">Product</entry>
+<entry key="eventCreationTime">2022-10-14 17:08:27.0</entry>
+<entry key="eventRevision">0.20</entry>
+<entry key="messageCreationTime">2022-10-14 17:09:07.123</entry>
+<entry key="eventID">1112991</entry>
+<entry key="eventType">1</entry>
+<entry key="nodeID">caio</entry>
+<entry key="nodeType">Product</entry>
+<entry key="eventCreationTime">2022-10-14 17:08:27.0</entry>
+<entry key="eventRevision">0.4</entry>
+<entry key="messageCreationTime">2022-10-14 17:09:07.123</entry>
+</properties>
+-->
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true" FollowOverrideSubProducts="true">
+<Entities ExportSize="Minimum">
+<Entity>
+<Name/><AttributeLink/><ClassificationCrossReference/><Entity/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ContextCrossReference/><Values/></Entity></Entities>
+<Products ExportSize="Minimum">
+<Product>
+<Name/><AttributeLink/><DataContainerTypeLink/><ClassificationReference/><Product/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ClassificationCrossReference/><Values/><OverrideSubProduct/></Product></Products>
+</STEP-ProductInformation>
+
+Export from Caio Silva
+Effective date: 2022-10-14 17:09:07
+Classifications All
+Products "besi-me" "greg" "besi-john" "caio"
+Assets All
+
+Exported by domain exporter.
+-->
+<STEP-ProductInformation ExportTime="2022-10-14 17:09:07" ExportContext="Context1" ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
+
+  <Products>
+    <Product ID="besi-me" UserTypeID="besi-objs" ParentID="besi-prods">
+      <Name>Bernard Simmons</Name>
+      <Values>
+        <Value AttributeID="surname">Simmons</Value>
+        <Value AttributeID="first">Bernard</Value>
+        <Value AttributeID="besi-title" Changed="true">Ingeniero de Sistemas</Value>
+      </Values>
+    </Product>
+    <Product ID="greg" UserTypeID="besi-objs" ParentID="besi-prods">
+      <Name>Greg James</Name>
+      <Values>
+        <Value AttributeID="surname">James</Value>
+        <Value AttributeID="first">Greg</Value>
+        <Value AttributeID="besi-title" Changed="true">Disc Jockey del Reino Unido</Value>
+      </Values>
+    </Product>
+    <Product ID="besi-john" UserTypeID="besi-objs" ParentID="besi-prods">
+      <Name>John Smith</Name>
+      <Values>
+        <Value AttributeID="surname">Smith</Value>
+        <Value AttributeID="first">John</Value>
+        <Value AttributeID="besi-title" Changed="true">Supervisor Asistente</Value>
+      </Values>
+    </Product>
+    <Product ID="caio" UserTypeID="besi-objs" ParentID="besi-prods">
+      <Name>Caio Silva</Name>
+      <Values>
+        <Value AttributeID="surname">Silva</Value>
+        <Value AttributeID="first">Caio</Value>
+        <Value AttributeID="besi-title" Changed="true">Ingeniero de Sistemas Junior</Value>
+      </Values>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
